@@ -1,0 +1,65 @@
+@import "variables";
+.main-nav {
+    background-color: $primary-color;
+    .main-nav__list {
+        @include FlexCenter (row);
+        list-style-type: none;
+        .main-nav__item {
+            padding: 10px;
+            &:hover {
+                background-color: $secondary-color;
+            }
+            .main-nav__link {
+                text-decoration: none;
+                text-transform: uppercase;
+                @include font (Arial, 20px, black);  
+            }
+        }
+    }
+}
+.test {
+    border-radius: 12px;
+}
+.card {
+    margin: 0 auto;
+    width: min-content;
+    @include FlexCenter (column);
+    border: 1px solid black;
+    padding: 10px;
+    background-color: $secondary-color;
+    text-align: center;
+    .card__aside {
+        .card__figure {
+            .card__image {
+
+            }
+        }
+    }
+    .card__header {
+        .card__title {
+            @include font (Verdana, 26px, rgb(124,124,13));
+        }
+        .card__subtitle {
+            @include font (Verdana, 16px, rgb(120,10,10));
+        }
+    }
+    .card__body {
+        .card__copy {
+            @include font (Arial, 16px, black);
+        }
+    }
+    .card__footer {
+        .card__actions {
+            .button {
+                width: 150px;
+                height: 70px;
+                margin-top: 10px;
+                &:hover {
+                    cursor: pointer;
+                    background-color: $primary-color;
+                    @extend .test;
+                }
+            }
+        }
+    }
+}

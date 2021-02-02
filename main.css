@@ -1,0 +1,101 @@
+.main-nav {
+  background-color: #6fe600;
+}
+
+.main-nav .main-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+}
+
+.main-nav .main-nav__list .main-nav__item {
+  padding: 10px;
+}
+
+.main-nav .main-nav__list .main-nav__item:hover {
+  background-color: #00d7e6;
+}
+
+.main-nav .main-nav__list .main-nav__item .main-nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Arial;
+  font-size: 20px;
+  color: black;
+}
+
+.test, .card .card__footer .card__actions .button:hover {
+  border-radius: 12px;
+}
+
+.card {
+  margin: 0 auto;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #00d7e6;
+  text-align: center;
+}
+
+.card .card__header .card__title {
+  font-family: Verdana;
+  font-size: 26px;
+  color: #7c7c0d;
+}
+
+.card .card__header .card__subtitle {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #780a0a;
+}
+
+.card .card__body .card__copy {
+  font-family: Arial;
+  font-size: 16px;
+  color: black;
+}
+
+.card .card__footer .card__actions .button {
+  width: 150px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+.card .card__footer .card__actions .button:hover {
+  cursor: pointer;
+  background-color: #6fe600;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */
